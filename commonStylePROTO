@@ -1,0 +1,234 @@
+body {
+	color: black; background:#2C2C2C;
+  font-family: "Tahoma";
+  text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	width: 95%;
+	height: 95%;
+	align-items: flex-end;
+
+
+
+	}
+header {
+
+		background-color: #2C2C2C;
+
+		width: 100%;
+		height: auto%;
+		color: black;
+		font-weight: lighter;
+		text-align:center;
+		border: 1px solid #FFFFFF;
+		line-height: 3px;
+
+	}
+header h1 {
+	font-family: "Berlin Sans FB";
+	color: white;
+}
+
+header h2 {
+	height: auto;
+	color: white;
+	text-align: center;
+}
+
+
+
+		ul {
+		    list-style-type: none;
+		    background-color: #black;
+				padding-right: 2em;
+		}
+		li {
+			padding: 1em;
+			display: inline-block;
+
+		}
+		li a {
+		    color: #FFFFFF;
+		    padding: 1em;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+				margin: 0 auto;
+		    background-color: #FFFFFF;
+				color: #000000;
+				transition: all 0.5s ease 0s;
+				border-radius: 3px;
+
+		}
+	article {
+		margin: 0 auto;
+		width: 70%;
+		text-align: justify;
+	}
+
+	.overlord {
+		float: left;
+		display: inline-flex;
+		display: run-in;
+	}
+
+
+		.fbookvid {
+			float: right;
+			display: inline-flex;
+			display: run-in;
+
+	}
+
+	.polaroid {
+    		width: 40%;
+				height: 40%;
+    		background-color: white;
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				margin: 0 10%;
+				display: inline-block;
+			}
+
+		img {width: 100%}
+
+	.container {
+    		text-align: center;
+    		padding: 10px 20px;
+
+
+		}
+
+					.lfcimage {
+					display: inline-flex;
+
+					}
+
+				.sidebar{
+				float: right;
+				width: 30%;
+				height: auto;
+				border: 1px white;
+				padding-left: 5px;
+				padding-right: 5px;
+				}
+
+				@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+			.square {
+			    float:left;
+			    position: relative;
+			    width: 30%;
+			    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+			    margin:1.66%;
+			    background-color:#1E1E1E;
+			    overflow:hidden;
+			}
+
+			.content {
+			    position:absolute;
+			    height:90%; /* = 100% - 2*5% padding */
+			    width:90%; /* = 100% - 2*5% padding */
+			    padding: 5%;
+
+			}
+			.table{
+			    display:table;
+			    width:100%;
+			    height:100%;
+			}
+			.table-cell{
+			    display:table-cell;
+			    vertical-align:middle;
+			}
+			/*  For list */
+			ul{
+			    text-align:left;
+			    margin:5% 0 0;
+			    padding:0;
+			    list-style-position:inside;
+			}
+			li{
+			    margin: 0 0 0 5%;
+			    padding:0;
+			}
+
+
+			/*  For responsive images */
+
+			.content .rs{
+			    width:auto;
+			    height:auto;
+			    max-height:90%;
+			    max-width:100%;
+			}
+			/*  For responsive images as background */
+
+			.bg{
+			    background-position:center center;
+			    background-repeat:no-repeat;
+			    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+			    color:#fff;
+			}
+
+			.img1{
+			    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+			}
+			.img2{
+			    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
+			}
+			.img3{
+			    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
+			}
+
+			/*  following just for the demo */
+
+
+			body {
+			    font-size:20px;
+			    font-family: 'Lato',verdana, sans-serif;
+			    color: #fff;
+			    text-align:center;
+			    background:#ECECEC;
+			}
+			p{
+			    margin:0;
+			    padding:0;
+			    text-align:left;
+			}
+
+			.numbers{
+			    font-weight:900;
+			    font-size:100px;
+			}
+
+			#bottom {
+			    clear:both;
+			    margin:0 1.66%;
+			    width:89.68%;
+			    padding: 3.5%;
+			    background-color:#1E1E1E;
+			    color: #fff;
+			}
+			#bottom p{
+			    text-align:center;
+			    line-height:2em;
+			}
+			#bottom a{
+			    color: #000;
+			    text-decoration:none;
+			    border:1px solid #000;
+			    padding:10px 20px 12px;
+			    line-height:70px;
+			    background:#ccc;
+
+			    -webkit-border-radius: 5px;
+			    -moz-border-radius: 5px;
+			    border-radius: 5px;
+			}
+
+			#bottom a:hover{
+			    background:#ECECEC;
+			    border:1px solid #fff;
+			}

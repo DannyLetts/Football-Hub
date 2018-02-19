@@ -1,0 +1,139 @@
+body {
+	color: black; background:#2C2C2C;
+  font-family: "Tahoma";
+  text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	width: 95%;
+	height: 95%;
+	align-items: flex-end;
+
+
+
+	}
+header {
+
+		background-color: #2C2C2C;
+
+		width: 100%;
+		height: auto%;
+		color: black;
+		font-weight: lighter;
+		text-align:center;
+		border: 1px solid #FFFFFF;
+		line-height: 3px;
+
+	}
+header h1 {
+	font-family: "Berlin Sans FB";
+	color: white;
+}
+
+header h2 {
+	height: auto;
+	color: white;
+	text-align: center;
+}
+
+
+
+		ul {
+		    list-style-type: none;
+		    background-color: #black;
+				padding-right: 2em;
+		}
+		li {
+			padding: 1em;
+			display: inline-block;
+
+		}
+		li a {
+		    color: #FFFFFF;
+		    padding: 1em;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+				margin: 0 auto;
+		    background-color: #FFFFFF;
+				color: #000000;
+				transition: all 0.5s ease 0s;
+				border-radius: 3px;
+
+		}
+	article {
+		margin: 0 auto;
+		width: 70%;
+		text-align: justify;
+	}
+
+	.overlord {
+		float: left;
+		display: inline-flex;
+		display: run-in;
+
+	}
+
+
+		.fbookvid {
+			float: right;
+			display: inline-flex;
+			display: run-in;
+
+	}
+
+	.polaroid {
+    		width: 40%;
+				height: 40%;
+    		background-color: white;
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				margin: 0 10%;
+				display: inline-block;
+			}
+
+		img {width: 100%}
+
+	.container {
+    		text-align: center;
+    		padding: 10px 20px;
+
+
+		}
+
+	.lfcimage {
+		display: inline-flex;
+
+	}
+
+.sidebar{
+	float: right;
+	width: 30%;
+	height: auto;
+	border: 1px white;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+.picture-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	justify-items: center;
+	grid-gap: 5px;
+	grid-row-gap: 12px;
+
+
+
+}
+
+.grid-box {
+	border: solid 10px transparent;
+		}
+
+
+.grid-box:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: all 0.5s ease 0s;
+	border-radius: 10px;
+		}

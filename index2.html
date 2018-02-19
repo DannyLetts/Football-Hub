@@ -1,0 +1,52 @@
+<!doctype <html>
+
+  <head>
+      <title>Danny Letts Home</title>
+      <link rel="stylesheet" type="text/css" href="commonStyle.css" />
+      <link rel="stylesheet" type="text/css" href="indexstyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Football Hub</h1>
+      <p>Interactive Football Hub</p>
+
+      <ul>
+          <li><a href="index.html">Teams</a></li>
+          <li><a href="litreview.html">Curent Team</a></li>
+          <li><a href="Logbook.html">About</a></li>
+
+
+      </ul>
+    </header>
+    <main>
+            <p>University of Portsmouth 2015 Coursework!</p>
+            <p><strong> Above </strong> are all of the Links to my <strong> Work! </strong> </p>
+	<div class="overlord">
+    <a class="twitter-timeline" data-lang="en" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/LFC?ref_src=twsrc%5Etfw">Tweets by LFC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <div>
+        <?php
+              $con = mysql_connect("localhost","root","");
+              $db = mysql_select_db("premier_league");
+
+              if($con){
+                  echo 'Succesfully connected to the database';
+              } else {
+                  die('Error.');
+              }
+              ?>
+  </div>
+
+	<div class="fbookvid">
+    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLiverpoolFC%2Fvideos%2F10156289022782573%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+
+
+
+		</div>
+	</div>
+
+
+		</div>
+	</div>
+	</div>
